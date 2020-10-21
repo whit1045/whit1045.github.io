@@ -10,6 +10,7 @@ h1{
 body {
     font-family: sans-serif;
     background-color: #aad4cf;
+    margin-top: 0;
 }
 section {
     border: .1rem solid black;
