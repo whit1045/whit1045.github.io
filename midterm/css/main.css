@@ -2,10 +2,10 @@ h1{
     background: indianred url(../images/lone-starfish-wide.jpg) no-repeat center center;
     background-size: cover;
     height: 9em;
-    margin: 0;
-    padding: 0;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: sans-serif;
@@ -38,7 +38,7 @@ footer {
     text-align: right;
     padding: 1.5em 1em 1em 1em;
 }
-nav ul{
+nav ul {
     background-color: #D4E9E7;
 }
 nav ul a {
@@ -79,4 +79,7 @@ img {
 .container {
     max-width: 765px;
     margin: 0 auto;
+}
+nav > ul {
+    margin: 0;
 }
