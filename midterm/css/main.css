@@ -17,7 +17,21 @@ body {
 section {
     border: .1rem solid black;
     padding: 1em 1em .5em 1em;
-    width: 45rem;
+
+}
+#fullname{
+    margin-bottom:15px;
+    margin-top:7px;
+}
+
+#youremail{
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+#message {
+    margin-top: 15px;
+    margin-bottom: 7px;
 }
 .SEND {
   width: 6%;
