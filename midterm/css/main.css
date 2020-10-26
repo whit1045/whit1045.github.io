@@ -1,11 +1,13 @@
-h1{
+.header{
     background: indianred url(../images/lone-starfish-wide.jpg) no-repeat center center;
     background-size: cover;
-    height: 9em;
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+    height: 15em;
+}
+   h1{
+       color: white;
+    text-align:center;
+    margin:0;
+    padding-top: 6em;
 }
 body {
     font-family: sans-serif;
@@ -55,6 +57,7 @@ nav ul li {
 }
 main {
     background-color: #D4E9E7;
+    padding: 10px;
 }
 footer {
     background-color: #D4E9E7;
