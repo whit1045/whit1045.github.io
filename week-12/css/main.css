@@ -1,3 +1,24 @@
 html{
     font-family: 'Nerko One', cursive;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header,
+.site-footer{
+    background-color: #ccc;
+}
+
+main{
+    background-color: lavender;
+}
+
+.location{
+    background-color: tomato;
+}
+.location iframe{
+    width: 100%;
+}
