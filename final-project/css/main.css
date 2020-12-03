@@ -130,7 +130,7 @@ a{
 }
 
 .search{
-    width: 93%;
+    width: 90%;
     height: 39px;
     margin-left: 3px;
     font-size: 20px;
@@ -141,8 +141,8 @@ input [type="button"]{
     -webkit-appearance: none;
     appearance: none;
 }
-#search button{
-    width: 50%;
+.search button{
+    width: 5%;
 }
 
 .headerdown{
@@ -198,15 +198,201 @@ input [type="button"]{
 
 .services{
     width: 820px;
-    padding-left: 5px;
+    padding-left: 4px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0;
     padding-right: 10px;
+    margin-bottom: 0;
 }
 
 .digform{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 825px;
-    height: 700px;
+    width: 809px;
+    height: 220px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.digform h3{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.digform p{
+    padding-bottom: 20px;
+}
+
+.plansbtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+}
+
+.laptop{
+    width: 840px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.market{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 220px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.market h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.market p{
+    padding-bottom: 20px;
+}
+
+.marketbtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+}
+
+.phone{
+    width: 840px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.youtube{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 220px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.youtube h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.youtube p{
+    padding-bottom: 20px;
+}
+
+.videobtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+}
+
+.pen{
+    width: 840px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.notepad{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 220px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.notepad h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.notepad p{
+    padding-bottom: 20px;
+}
+
+.webbtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+}
+
+.print{
+    width: 820px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}
+
+.news{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 220px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.news h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.news p{
+    padding-bottom: 20px;
+}
+
+.printbtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
 }
