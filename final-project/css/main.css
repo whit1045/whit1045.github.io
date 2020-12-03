@@ -396,3 +396,103 @@ input [type="button"]{
     height: 100px;
     font-size: 24px;
 }
+
+.ourvision{
+    background: tomato url(../images/images/vision.jpg)no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    width: 880px;
+    margin-bottom: 50px;
+}
+
+.ourvisiontext{
+    color: white;
+    padding-left: 20px;
+}
+
+.ourvisiontext h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-right: 0;
+}
+
+.ourvisiontext p{
+    padding-bottom: 20px;
+}
+
+.visionbtn{
+    color: white;
+    background-color: #222;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 5px;
+    border: 1px solid #c78c06;
+}
+
+.meet h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.johnimage{
+    width: 860px;
+}
+
+.johninfo{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 150px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.johninfo h3{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c78c06;
+    font-weight: bolder;
+}
+
+.johninfo p{
+    padding-top: 15px;
+}
+
+.bobimage{
+    width: 860px;
+}
+
+.bobinfo{
+    background-color: #ffe6ac;
+    padding-bottom: 50px;
+    width: 840px;
+    height: 150px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.bobinfo h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.bobinfo h3{
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c78c06;
+    font-weight: bolder;
+}
+
+.bobinfo p{
+    padding-top: 15px;
+}
