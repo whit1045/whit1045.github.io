@@ -143,6 +143,12 @@ input [type="button"]{
 }
 .search button{
     width: 5%;
+    background-color: #222;
+    border: 1px solid #c78c06;
+}
+
+.im{
+    color: #c78c06;
 }
 
 .headerdown{
@@ -495,4 +501,115 @@ input [type="button"]{
 
 .bobinfo p{
     padding-top: 15px;
+}
+
+.conect h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.im-play{
+    color: white;
+}
+
+.conect h3{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#fullname{
+    margin-bottom:15px;
+    margin-top:7px;
+    margin-left: 0;
+}
+
+#youremail{
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+#message {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+}
+textarea {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    height: 10em;
+}
+input[type="email"] {
+    padding: 12px 20px;
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+.conect{
+    margin-right: 60px;
+    padding-left: 20px;
+}
+
+.submitbtn{
+    width: 70px;
+    height: 50px;
+    font-size: 24px;
+    background-color: #222;
+    border: none;
+    color: #c78c06;
+    margin-bottom: 20px;
+}
+
+.table th{
+    background-color: #ffe6ac;
+    height: 30px;
+    padding-top: 15px;
+}
+
+.table{
+    border: 1px solid black;
+    padding-top: 30px;
+    table-layout: auto;
+    margin-bottom: 20px;
+}
+
+.table tr{
+    border: 1px solid black;
+}
+
+.table td{
+    border: 1px solid black;
+    padding-right: 20px;
+}
+
+.location h2{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.location{
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: #222;
+    color: #c78c06;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.copyright{
+    padding-top: 20px;
 }
