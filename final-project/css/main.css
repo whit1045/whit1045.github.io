@@ -130,9 +130,12 @@ a{
 }
 
 .search{
-    width: 90%;
-    height: 39px;
-    margin-left: 3px;
+    width: 850px;
+}
+
+.searchbox{
+    width: 800px;
+    height: 25px;
     font-size: 20px;
 }
 
@@ -143,8 +146,14 @@ input [type="button"]{
 }
 .search button{
     width: 5%;
+    height: 50px;
     background-color: #222;
     border: 1px solid #c78c06;
+    margin-top: 10px;
+}
+
+form.search{
+    display: inline-flex;
 }
 
 .im{
@@ -231,16 +240,18 @@ input [type="button"]{
 }
 
 .digform p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .plansbtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .laptop{
@@ -271,16 +282,18 @@ input [type="button"]{
 }
 
 .market p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .marketbtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .phone{
@@ -311,16 +324,18 @@ input [type="button"]{
 }
 
 .youtube p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .videobtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .pen{
@@ -351,16 +366,18 @@ input [type="button"]{
 }
 
 .notepad p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .webbtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .print{
@@ -391,16 +408,18 @@ input [type="button"]{
 }
 
 .news p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .printbtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .ourvision{
@@ -424,19 +443,21 @@ input [type="button"]{
 }
 
 .ourvisiontext p{
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .visionbtn{
     color: white;
     background-color: #222;
     border: none;
-    width: 250px;
-    height: 100px;
+    width: 800px;
+    height: 900px;
     font-size: 24px;
     margin-top: 100px;
     margin-left: 5px;
     border: 1px solid #c78c06;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .meet h2{
@@ -612,4 +633,116 @@ input[type="email"] {
 
 .copyright{
     padding-top: 20px;
+}
+
+/*----------desktop styles--------*/
+
+@media screen and (min-width: 760px){
+    .Home{
+        background-color: #222;
+        margin-right: 500px;
+        margin-top: -165px;
+    }
+    .Home a{
+        background-color: #c78c06;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .About{
+        margin-right: 200px;
+        margin-top: -90px;
+    }
+
+    .Services{
+        margin-left: 50px;
+        margin-top: -75px;
+    }
+
+    .Team{
+        margin-left: 250px;
+        margin-top: -75px;
+    }
+
+    .Contact{
+        margin-left: 450px;
+        margin-top: -75px;
+    }
+
+    .stars{
+        margin-left: 20px;
+    }
+
+   .search{
+       width: 300px;
+       margin-left: 770px;
+       margin-top: -100px;
+   }
+
+   .search button{
+       width: 50px;
+   }
+   
+   .pong{
+       width: 500px;
+       float: left;
+   }
+
+   .infoabout{
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+   }
+
+  
+   
+   .services,
+   .laptop{
+       width: 500px;
+       padding: 0;
+       margin: 0;
+   }
+
+   .phone,
+   .pen,
+   .print{
+       width: 300px;
+       padding: 0;
+       margin: 0;
+   }
+
+   .digform,
+   .market{
+       width: 480px;
+       font-size: 15px;
+   }
+
+   .youtube,
+   .notepad,
+   .news{
+       width: 280px;
+       font-size: 15px;
+       height: 280px;
+   }
+
+   .theservice h2,
+   h3{
+       font-size: 25px;
+   }
+
+   .theservice{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "digi digi marketing marketing"
+    "digi digi marketing marketing"
+    "video web print";
+    gap: 1em;
+}
+
+
 }
