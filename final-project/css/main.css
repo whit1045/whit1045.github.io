@@ -735,12 +735,12 @@ input[type="email"] {
 
    .theservice{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: 
-    "digi digi marketing marketing"
-    "digi digi marketing marketing"
-    "video web print";
+    "heading heading heading heading heading Heading"
+    "digi digi digi marketing marketing Marketing"
+    "video video web web print print";
     gap: 1em;
 }
 
