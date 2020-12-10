@@ -212,7 +212,6 @@ form.search{
 }
 
 .services{
-    width: 820px;
     padding-left: 4px;
     padding-top: 20px;
     padding-bottom: 0;
@@ -223,7 +222,6 @@ form.search{
 .digform{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 809px;
     height: 220px;
     margin-top: 0;
     padding-top: 20px;
@@ -255,7 +253,6 @@ form.search{
 }
 
 .laptop{
-    width: 840px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -265,7 +262,6 @@ form.search{
 .market{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 840px;
     height: 220px;
     margin-top: 0;
     padding-top: 20px;
@@ -297,7 +293,6 @@ form.search{
 }
 
 .phone{
-    width: 840px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -307,7 +302,6 @@ form.search{
 .youtube{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 840px;
     height: 220px;
     margin-top: 0;
     padding-top: 20px;
@@ -339,7 +333,6 @@ form.search{
 }
 
 .pen{
-    width: 840px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -349,7 +342,6 @@ form.search{
 .notepad{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 840px;
     height: 220px;
     margin-top: 0;
     padding-top: 20px;
@@ -381,7 +373,6 @@ form.search{
 }
 
 .print{
-    width: 820px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 0px;
@@ -391,7 +382,6 @@ form.search{
 .news{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 840px;
     height: 220px;
     margin-top: 0;
     padding-top: 20px;
