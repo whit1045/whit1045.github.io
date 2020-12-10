@@ -204,7 +204,7 @@ form.search{
     padding-bottom: 20px;
 }
 
-.our h2{
+.theservice h2{
     font-size: 60px;
     font-weight: bolder;
     padding-left: 1px;
@@ -245,11 +245,9 @@ form.search{
     color: white;
     background-color: #222;
     border: none;
-    width: 800px;
-    height: 900px;
+    display: inline-block;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .laptop{
@@ -285,11 +283,9 @@ form.search{
     color: white;
     background-color: #222;
     border: none;
-    width: 800px;
-    height: 900px;
+    display: inline-block;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .phone{
@@ -325,11 +321,9 @@ form.search{
     color: white;
     background-color: #222;
     border: none;
-    width: 800px;
-    height: 900px;
+    display: inline-block;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .pen{
@@ -365,11 +359,9 @@ form.search{
     color: white;
     background-color: #222;
     border: none;
-    width: 800px;
-    height: 900px;
+    display: inline-block;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .print{
@@ -405,11 +397,9 @@ form.search{
     color: white;
     background-color: #222;
     border: none;
-    width: 800px;
-    height: 900px;
+    display: inline-block;
     font-size: 24px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .ourvision{
@@ -692,6 +682,10 @@ input[type="email"] {
        font-size: 25px;
    }
 
+   .theservice img{
+       width: 100%;
+   }
+
    .theservice{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -709,5 +703,39 @@ input[type="email"] {
     display: table;
 }
 
+.theservice h2{
+    grid-area: heading;
+}
 
+.digi{
+    grid-area: digi;
+}
+
+.marketing{
+    grid-area: marketing;
+}
+
+.video{
+    grid-area: video;
+}
+
+.web{
+    grid-area: web;
+}
+
+.print{
+    grid-area: print;
+}
+
+.videobtn{
+    margin-top: -55px;
+}
+
+.webbtn{
+    margin-top: -55px;
+}
+
+.printbtn{
+    margin-top: -55px;
+}
 }
