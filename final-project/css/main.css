@@ -697,37 +697,6 @@ input[type="email"] {
     margin-bottom: 20px;
    }
 
-  
-   
-   .services,
-   .laptop{
-       width: 500px;
-       padding: 0;
-       margin: 0;
-   }
-
-   .phone,
-   .pen,
-   .print{
-       width: 300px;
-       padding: 0;
-       margin: 0;
-   }
-
-   .digform,
-   .market{
-       width: 480px;
-       font-size: 15px;
-   }
-
-   .youtube,
-   .notepad,
-   .news{
-       width: 280px;
-       font-size: 15px;
-       height: 280px;
-   }
-
    .theservice h2,
    h3{
        font-size: 25px;
@@ -738,10 +707,16 @@ input[type="email"] {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: 
-    "heading heading heading heading heading Heading"
-    "digi digi digi marketing marketing Marketing"
+    "heading heading heading heading heading heading"
+    "digi digi digi marketing marketing marketing"
     "video video web web print print";
     gap: 1em;
+}
+
+.about::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
