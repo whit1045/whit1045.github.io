@@ -130,11 +130,11 @@ a{
 }
 
 .search{
-    width: 850px;
+    width: 650px;
 }
 
 .searchbox{
-    width: 800px;
+    width: 500px;
     height: 25px;
     font-size: 20px;
 }
@@ -145,7 +145,7 @@ input [type="button"]{
     appearance: none;
 }
 .search button{
-    width: 5%;
+    width: 10%;
     height: 50px;
     background-color: #222;
     border: 1px solid #c78c06;
@@ -446,20 +446,12 @@ form.search{
     padding-bottom: 30px;
 }
 
-.johnimage{
-    width: 860px;
-}
-
 .johninfo{
     background-color: #ffe6ac;
-    padding-bottom: 50px;
-    width: 840px;
-    height: 150px;
     margin-top: 0;
     padding-top: 0;
     padding-left: 20px;
     padding-right: 0;
-    margin-bottom: 20px;
 }
 
 .johninfo h3{
@@ -472,20 +464,13 @@ form.search{
     padding-top: 15px;
 }
 
-.bobimage{
-    width: 860px;
-}
-
 .bobinfo{
     background-color: #ffe6ac;
     padding-bottom: 50px;
-    width: 840px;
-    height: 150px;
     margin-top: 0;
     padding-top: 0;
     padding-left: 20px;
     padding-right: 0;
-    margin-bottom: 20px;
 }
 
 .bobinfo h2{
@@ -598,10 +583,6 @@ input[type="email"] {
     font-size: 60px;
     font-weight: bolder;
     padding-bottom: 30px;
-}
-
-.location{
-    padding-left: 20px;
 }
 
 .footer{
@@ -737,5 +718,69 @@ input[type="email"] {
 
 .printbtn{
     margin-top: -55px;
+}
+
+.theteam{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "heading heading"
+    "meet johninfo"
+    "bobinfo bobintro";
+}
+
+.theteam h2{
+    grid-area: heading;
+}
+
+.meet{
+    grid-area: meet;
+}
+
+.johninfo{
+    grid-area: johninfo;
+}
+
+.bobinfo{
+    grid-area: bobinfo;
+}
+
+.bobintro{
+    grid-area: bobintro;
+}
+
+.theteam img{
+    width: 100%;
+}
+
+.dtopcontact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header header"
+    "conect location"
+    "hours hours";
+}
+
+.dtopcontact h2{
+    grid-area: header;
+}
+
+.conect{
+    grid-area: conect;
+}
+
+.location{
+    grid-area: location;
+    margin-top: 95px;
+}
+
+.hours{
+    grid-area: hours;
+}
+.footer{
+    padding-left: 30px;
 }
 }
