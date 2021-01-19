@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+body #nav {
+    background-color:#430F11;
+    border: none;
+    text-align: left;
+}
+
+body #nav a {
+    color: #E26D5C;
+}
+
+body #about {
+    background-color: #003049;
+}
+
+body #home {
+    background-color: #003049;
+}
+
+body #contact {
+    background-color: #003049;
+    margin-bottom: 0;
+}
+
+body .contact-form {
+    background-color: #430F11;
+}
+}
