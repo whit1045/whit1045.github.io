@@ -11,6 +11,7 @@ body #nav a {
 
 body #about {
     background-color: #003049;
+    padding-left: 10px;
 }
 
 body #home {
@@ -19,10 +20,17 @@ body #home {
 
 body #contact {
     background-color: #003049;
-    margin-bottom: 0;
+    text-align: center;
 }
 
 body .contact-form {
     background-color: #430F11;
+    width: 60%;
+    color: #E26D5C;
+    text-align: left;
+}
+
+.home h1 {
+    color: white;
 }
 }
