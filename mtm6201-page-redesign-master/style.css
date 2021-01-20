@@ -32,5 +32,36 @@ body .contact-form {
 
 .home h1 {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.about h1,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about p {
+    font-size: 1.5rem;
+}
+
+#contact .section-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+html,
+body {
+    overflow-x: hidden;
 }
 }
