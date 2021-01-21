@@ -1,3 +1,5 @@
+/* desktop styles for screen size 768px and above*/
+/* colours for the cite will be predominitly #430F11, #003049, and white, as they are nice clean Business colours */
 body #nav {
     background-color:#430F11;
     border: none;
@@ -62,6 +64,7 @@ html,
 body {
     overflow-x: hidden;
 }
+/* styles for mobile sizes 768px and down, covers phone and tablets*/
 @media screen and (max-width: 768px) {
 body #nav {
     background-color:#430F11;
@@ -86,7 +89,7 @@ body #contact {
     background-color: #003049;
     text-align: center;
 }
-
+/* adjust the width of the form so it doesn't extend outside of the webpage and adjusts to fit the screen size instead*/
 body .contact-form {
     background-color: #430F11;
     width: 60%;
@@ -124,6 +127,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
 }
+/* this removes and disables the horizontal scroll bar so that the page is contained to the screen size*/
 html,
 body {
     overflow-x: hidden;
