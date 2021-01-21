@@ -1,3 +1,67 @@
+body #nav {
+    background-color:#430F11;
+    border: none;
+    text-align: left;
+}
+
+body #nav a {
+    color: #E26D5C;
+}
+
+body #about {
+    background-color: #003049;
+    padding-left: 10px;
+}
+
+body #home {
+    background-color: #003049;
+}
+
+body #contact {
+    background-color: #003049;
+    text-align: center;
+}
+
+body .contact-form {
+    background-color: #430F11;
+    color: #E26D5C;
+    text-align: left;
+}
+
+.home h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.about h1,
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about p {
+    font-size: 1.5rem;
+}
+
+#contact .section-title {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+html,
+body {
+    overflow-x: hidden;
+}
 @media screen and (max-width: 768px) {
 body #nav {
     background-color:#430F11;
