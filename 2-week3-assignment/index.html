@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link to css for custom styles-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
 
 <body>
     <img src="images/logo.png" alt="a mint green 'D'" class="logo"/>
+    <div class="h1boss">
     <h1>Want to be your own boss?</h1>
+</div>
+<div class="startp">
     <p>
         Start today and make up to $30/hr driving your own vehicle with Dash!
     </p>
-    <img src="images/scooter.jpg" alt="women riding scooter" class="scooter"/>
-    <form class="signup">
+</div>
+<div class="scoot">
+    <img src="images/scooter.jpg" alt="women riding scooter" class="scooterimg"/>
+</div>
+    <div class="signup">
+    <form class="signf">
+        <h2>Apply Now</h2>
+        <p>
+            Enter your info below to get started.
+        </p>
         <!--text form for first name-fname-->
         <label for="fname"></label><br>
         <input type="text" id="fname" name="fname" value="First name"><br>
@@ -33,11 +46,12 @@
         <input type="checkbox" id="terms" name="terms" value="agree">
         <label for="terms">I agree to dash terms</label><br>
         <!--submit button for forms-->
-        <input type="submit" value="DRIVE WITH US">
+        <input type="submit" value="DRIVE WITH US" class="subbtn">
         <p>
-            Already applied? Check your application status here
+            Already applied? <span class="red">Check your application status here</span>
         </p>
     </form>
+</div>
 
 </body>
 <footer class="footer">
@@ -47,17 +61,19 @@
             how many hours do you want to drive with us this week?
         </p>
         <!--text form for calculate hours-->
-        <label for="hours"></label><br>
-        <input type="text" id="hours" name="hours" value="Hours"><br>
+        <label for="hours"></label>
+        <input type="text" id="hours" name="hours" value="Hours">
         <!--text form for calculate city-->
-        <label for="city"></label><br>
-        <input type="text" id="city" name="city" value="City"><br>
+        <label for="city"></label>
+        <input type="text" id="city" name="city" value="City">
         <!--submit button for calculate-->
-        <input type="submit" value="CALCULATE">
+        <input type="submit" value="CALCULATE" class="calbtn">
     </form>
+    <div class="socials">
     <img src="images/instagram.svg" alt="the insta logo"/>
     <img src="images/twitter.svg" alt="little bird"/>
     <img src="images/facebook.svg" alt="lowercase f"/>
     <img src="images/linkedin.svg" alt="lowercase i and n">
+</div>
 </footer>
 </html>

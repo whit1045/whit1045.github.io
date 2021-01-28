@@ -1,0 +1,154 @@
+/* 1920 px for desktop*/
+/* 768 px for tablet*/
+/*500 px for iphone*/
+
+body {
+    background-color: #f7f7ff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+    font-size: 100px;
+    word-wrap: break-word;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.h1boss {
+    width: 600px;
+    margin-left: 100px;
+}
+
+input[type="submit"]{
+    font-family: 'Montserrat', sans-serif;
+    font-style: bold;
+}
+
+.startp {
+    font-size: 20px;
+    width: 450px;
+    margin-left: 100px;
+}
+
+.scoot {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.calbtn {
+    background-color: #ff8480;
+    color: white;
+    font-style: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#hours,
+#city {
+    width: 50px;
+    height: 35px;
+    color: lightgray;
+    margin-left: 20px;
+    padding-right: 140px;
+    background-color: #f7f7ff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subbtn {
+    background-color: #57eeab;
+    font-size: 20px;
+    font-style: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.red {
+    color: #ff8480;
+}
+
+.logo {
+    width: 70px;
+    margin-left: 100px;
+}
+
+footer {
+    background-color: #fffd8c;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.calculate h2,
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.signf {
+    background-color: white;
+    border-radius: 25px;
+    width: 400px;
+    margin-bottom: 50px;
+    height: 450px;
+    box-shadow: 5px 10px 9px #333133;
+}
+
+.signf #fname,
+#lname,
+#email,
+#phone {
+    width: 200px;
+    height: 35px;
+    color: lightgray;
+    margin-left: 20px;
+    padding-right: 140px;
+    background-color: #f7f7ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.signf .subbtn,
+#terms,
+p,
+h2 {
+    margin-left: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        background-color: limegreen;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        background-color: maroon;
+    }
+}
+
