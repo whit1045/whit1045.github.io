@@ -1,7 +1,4 @@
-/* 1920 px for desktop*/
-/* 768 px for tablet*/
-/*500 px for iphone*/
-/*custom styles for mobile*/
+/*custom styles for desktop*/
 body {
     background-color: #f7f7ff;
 }
@@ -18,8 +15,8 @@ p{
 }
 
 .h1boss {
-    width: 600px;
-    margin-left: 100px;
+    margin: 0;
+    padding-left: 100px;
 }
 
 input[type="submit"]{
@@ -52,6 +49,8 @@ input[type="submit"]{
     padding-bottom: 3px;
 }
 
+/* the border radius functions is what controls how the corners of of a contailner look, the higher the number, the rounder the corners become*/
+
 #hours,
 #city {
     width: 50px;
@@ -77,7 +76,8 @@ input[type="submit"]{
     padding-bottom: 5px;
 }
 
-/*this is linked to the <span> in the html to make only part of the paragraph red*/
+/*this is linked to the <span> in the html to make only part of the paragraph red. It targets the seleted chunk of text and makes it more important. You can alos use Emphasize*/
+
 .red {
     color: #ff8480;
 }
@@ -113,6 +113,8 @@ p {
     height: 450px;
     box-shadow: 5px 10px 9px #333133;
 }
+
+/* box shadow is what makes that drop shadow effect on the apply now container, the first two values control the width for the bottom (1) and right (2), while the third value I added changed the opacity to make it more faded*/ 
 
 .signf #fname,
 #lname,
@@ -158,11 +160,16 @@ h2 {
 
 }
 
-/* custom syles for mobile*/
+/* custom syles for mobile, this is supposed to be around 360 px, but my webbrowser doesnt shrink down that far so I wouldnt be able to see if what im doing is working as liveserver only works on your computer*/
+
 @media screen and (max-width: 500px) {
     h1 {
-        width: 400px;
+        display: inline-block;
         font-size: 80px;
+        margin-right: 0px;
+        padding-right: 0px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .startp {
@@ -189,7 +196,7 @@ h2 {
 
     .socials {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly ;
         padding: 20px;
     }
 
@@ -197,11 +204,12 @@ h2 {
     p {
         width: 300px;
     }
+/* this was uses to fix the issue where there was whitespace to the rightof the site. All content was targeted and outlined bright red, so that the issue would stick out. The problem was the width of the h1 tag and has now been resolved.
 
-    /*this removes the horizontal scroll bar so the webpage fits the screen*/
-    html,
-body {
-    overflow-x: hidden;
-}
+    *{
+        outline: 1px solid red;
+    }
+    
+    */
 }
 
