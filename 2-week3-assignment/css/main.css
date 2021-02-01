@@ -5,7 +5,6 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-style: bold;
     font-size: 100px;
     display: flex;
     flex-direction: column;
@@ -22,7 +21,6 @@ p{
 
 input[type="submit"]{
     font-family: 'Montserrat', sans-serif;
-    font-style: bold;
 }
 
 .startp {
@@ -40,7 +38,6 @@ input[type="submit"]{
 .calbtn {
     background-color: #ff8480;
     color: white;
-    font-style: bold;
     border: none;
     border-radius: 5px;
     font-size: 20px;
@@ -68,7 +65,6 @@ input[type="submit"]{
 .subbtn {
     background-color: #57eeab;
     font-size: 20px;
-    font-style: bold;
     padding-left: 30px;
     padding-right: 30px;
     border: none;
