@@ -1,0 +1,288 @@
+#toggle
+{
+    display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  width: 300px;
+}
+
+#toggle a {
+    text-decoration: none;
+  color: #450A19;
+}
+
+#toggle input {
+    display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer; /* this ensures that the hamburger menu registers as a clickable item, it makes sure that the cursor changes to the little hand icon that lets users know that they can interact with the menu*/
+  
+  opacity: 0; /* This is what hides the checkbox that was used to create the hamburger menu. Without it there would be a big white box instead of the nice menu*/
+  z-index: 2; /* This is what makes the menu functional, without it the navigation would open and remain open, users would not be able to close the menu. */
+}
+
+#toggle span {
+    display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+/* this z-index function ensures the hamburger menu stays visible when the navigation is open, if removed, the menu disappears when opened, its still functional, but non visibly and Potentially confusing to users*/
+  z-index: 1;
+  transform-origin: 4px 0px;
+}
+
+/* the "checked ~ span brings up an error in the css validotor, however it is crutial to make the navigation work and change apearance. the error is do to the invisible checkbox that allows the creation of a Hamburger menu without any javascript. this is what hides the middle Hamburger piece.*/
+#toggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/* This funcation causes the bottom hambuerger to rotate, this is what makes the X shape*/
+#toggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #F8F4F0;
+  list-style-type: none;
+  /* this is what makes the menu collapse when closed, without this property the menu would stay open at all times*/ 
+  transform: translate(-100%, 0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#toggle input:checked ~ ul
+{
+  transform: none;
+}
+
+#menu a:hover {
+    color: #968787;
+}
+
+.update {
+    animation: pulse 5s infinite;
+    color:#968787;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #501321;
+    }
+    100% {
+        background-color: #771A32;
+    }
+}
+
+header {
+    background: #450A19;
+    margin: none;
+    height: 100px;
+}
+
+/* this was used to fix the overhanging white space and Horizontal scroll. I used the first set of code to determine where the issues was, then once I had figured it out I made the code be more specific and targeted only the problem area. The issue was resolved by adding a small, fixexd width to the #toggle property
+
+*{
+    outline: 1px solid red;
+}
+
+#toggle{
+    outline: 1px solid red;
+}
+*/
+
+.logo {
+    width: 100px;
+}
+
+#menu a{
+    font-family: cursive;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ---------------------------------------------------------------------this section if for styling the Home page 
+---------------------------------------------------------------------*/
+
+.homeimg {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+/* ---------------------------------------------------------------------this section if for styling the About page 
+---------------------------------------------------------------------*/
+
+
+.aboutimg {
+    width: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about h1 {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------this section if for styling the Contact page 
+---------------------------------------------------------------------*/
+
+.info{
+    background-color: #450A19;
+    color: #968787;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact h1 {
+    display: none;
+}
+
+/*--------------------------------------------------------------------Custom styles for tablets, 830 pixels
+---------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------This section if for styling the Home page 
+---------------------------------------------------------------------*/
+
+@media screen and (min-width: 830px){
+    .homeimg {
+        float: left;
+        margin-right: 5px;
+    }
+
+    #home p,
+    h2 {
+        font-size: 25px;
+    }
+    #news {
+        display: grid;
+  grid-template-columns: 100% 100% 100% 100% 100% 100%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+
+    .safety {
+        grid-row-start: 3;
+        grid-column-start: 1;
+    }
+
+    .update {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        display: flex;
+        align-items: center;
+    }
+
+    .copyright{
+        display: grid;
+  grid-template-columns: 100% 100% 100% 100% 100%;
+  grid-template-rows: 100px 100px;
+    }
+    .footer {
+        grid-row-start: 3;
+    }
+
+    .homeinfo {
+        display: grid;
+  grid-template-columns: 100% 100% 100% 100% 100%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+
+    .express {
+        grid-row-start: 3;
+    }
+
+    .wineinfo{
+        grid-row-start: 4;
+    }
+
+    /* -----------------------------------------------------------------this section if for styling the About page 
+---------------------------------------------------------------------*/
+
+    .about h2,
+    p{ 
+        font-size: 25px;
+    }
+
+    .aboutcontent {
+        display: grid;
+  grid-template-columns: 100% 100% 100% 100% 100% 100%;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    }
+
+    .aboutimg {
+        grid-row-start: 2;
+    }
+
+    .aboutp {
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    #about .copyright{
+        display: grid;
+  grid-template-columns: 100% 100% 100% 100% 100%;
+  grid-template-rows: 100px 100px 100px 100px;
+    }
+    #about .footer {
+        grid-row-start: 5;
+    }
+
+    .aboutimg {
+        width: 600px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* -----------------------------------------------------------------this section if for styling the Contact page 
+---------------------------------------------------------------------*/
+
+    #contact .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 50vh;
+    }
+
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+
+
+
