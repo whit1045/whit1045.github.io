@@ -372,5 +372,11 @@ body {
     color: #450A19;
 }
 
+.infobackground {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 }
