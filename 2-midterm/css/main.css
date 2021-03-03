@@ -305,6 +305,7 @@ body {
         justify-content: space-between;
     }
 
+    /* this will make the logo spin when the cursor passes over it going to the other side of the navigation, its a small touch to keep users interested and exited.*/
     .logo:hover {
         transform: rotateX(1turn);
         transition: 0.5s;
