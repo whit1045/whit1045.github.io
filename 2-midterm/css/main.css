@@ -79,6 +79,8 @@
 
 #menu a:hover {
     color: #968787;
+    transition: .3s;
+    
 }
 
 .update {
