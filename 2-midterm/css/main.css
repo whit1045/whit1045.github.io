@@ -77,6 +77,8 @@
   transform: none;
 }
 
+
+/* the hover animation allows users to easily see which nav item they are on and goign to click on.*/
 #menu a:hover {
     color: #968787;
     transition: .3s;
@@ -87,7 +89,7 @@
     animation: pulse 5s infinite;
     color:#968787;
 }
-
+/* this pulsing colour animation quickly draws the users eyes to it. In this case its a health update which is very important for users to understand and read.*/
 @keyframes pulse {
     0% {
         background-color: #501321;
