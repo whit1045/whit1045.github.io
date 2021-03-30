@@ -1,0 +1,68 @@
+/* Setting the list-style to none removes the bullet points form the list*/
+  .wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the list items inside the UL list, by setting its width, height to create the perfect circular border around them*/
+  .wrapper ul li {
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    transition: all 0.5s ease;
+  }
+  
+  /* these styles make the icons light gray instead of their default blue, which makes the glowing effect more prominent. The margin helps the icons to stay in the center of the border.*/
+  .wrapper ul li .fa {
+    color: #D8E2DC;
+    margin-top: 20px;
+  }
+  
+  /* use the different classes to get the desired glowing effect. Box shadow will add the extra faint glow effect around the border and the transition property will get the effect of the glow easeing in and out once you hover over it. Likewise the text shadow is what gets that glow effet on the icon itself. */
+  /*tumblr*/
+  .wrapper ul li:hover.tumblr-square {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-tumblr {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+  }
+  
+  /*twitter*/
+  .wrapper ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+  
+  /* instagram */
+  .wrapper ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+  .wrapper ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+  
+body {
+    font-family: 'Kanit', sans-serif;
+}
