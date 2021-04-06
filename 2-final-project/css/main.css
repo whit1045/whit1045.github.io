@@ -66,3 +66,21 @@
 body {
     font-family: 'Kanit', sans-serif;
 }
+
+.projects {
+  color: orange;
+}
+
+.adl {
+  color: purple;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px 0;
+}
+
+.projects-bg {
+  background-image: url(../images/Borialis.jpg);
+} 
