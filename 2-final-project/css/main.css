@@ -78,9 +78,21 @@ body {
 .links {
   display: flex;
   justify-content: space-evenly;
-  padding: 70px 0;
+}
+
+.projects:hover {
+  color: purple;
+}
+
+.adl:hover {
+  color: orange;
 }
 
 .projects-bg {
   background-image: url(../images/Borialis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  max-width: 100%;
 } 
