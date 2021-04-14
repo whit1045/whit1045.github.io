@@ -88,7 +88,7 @@ body {
   color: orange;
 }
 
-html {
+.project-bg {
   background-image: url(../images/Borialis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
