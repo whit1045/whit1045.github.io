@@ -24,6 +24,7 @@
   }
   
   /* use the different classes to get the desired glowing effect. Box shadow will add the extra faint glow effect around the border and the transition property will get the effect of the glow easeing in and out once you hover over it. Likewise the text shadow is what gets that glow effet on the icon itself. */
+
   /*tumblr*/
   .wrapper ul li:hover.tumblr-square {
     border: 5px solid #3b5998;
@@ -63,6 +64,7 @@
     transition: all 0.5s ease;
   }
   
+  /*this is the font I downloaded from google fonts, by targeting the body, the font is applied to all text across all of the site pages*/
 body {
     font-family: 'Kanit', sans-serif;
 }
@@ -75,11 +77,13 @@ body {
   color: purple;
 }
 
+/*using flex on the project links gets them to display Horizontally instead of vertically. Space evenly ensures they arent to close together or to far appart*/
 .links {
   display: flex;
   justify-content: space-evenly;
 }
 
+/*the hover property affects the link when the mouse is over top of it. These ones are set to the opposite of their original colour, so they switch when hovered over.*/
 .projects:hover {
   color: purple;
 }
@@ -88,8 +92,9 @@ body {
   color: orange;
 }
 
+/*the Borialis map is going to be used as a backround image here, it helps to break up the white space and catch users attenion and peak their curiosity. using no repeat and cover ensure the the image is only displayed once, and takes up the full space of the page.*/
 .project-bg {
-  background-image: url(../images/Borialis.jpg);
+  background-image: url(../images/Borialismapidea1copy2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
